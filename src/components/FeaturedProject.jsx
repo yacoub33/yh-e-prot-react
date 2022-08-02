@@ -8,7 +8,7 @@ function FeaturedProject({ title, languages, description }) {
       <div className="container">
         <div className="row">
           <h1 className="text--center section__title">
-            <span className="text-color">Featured Project</span>{" "}
+            <span className="text-color">Featured </span> Project{" "}
           </h1>
         </div>
       </div>
