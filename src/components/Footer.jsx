@@ -18,7 +18,7 @@ function Footer() {
             </li>
             <li className="footer__link">
               <a href="/" className="foo__link">
-                Contact
+                Contact v
               </a>
             </li>
           </ul>
