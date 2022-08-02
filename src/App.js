@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import FeaturedProject from "./components/FeaturedProject";
 import Footer from "./components/Footer";
 import Landing from "./components/Landing";
@@ -8,13 +9,14 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      {/* <Landing /> */}
+      <Landing />
       <FeaturedProject
         title="Spotify"
         languages="html css js react"
         description="this is a text"
       />
       <Projects />
+      <Contact />
       <Footer />
     </div>
   );

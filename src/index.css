@@ -110,19 +110,18 @@ LANDING
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 90%;
   max-width: 1000px;
-  padding: 0 30px;
 }
 
 .small__intro {
-  font-size: 50px;
+  font-size: 30px;
   padding: 0;
   margin-bottom: 12px;
 }
 
 .title {
-  font-size: 80px;
+  font-size: 60px;
   margin-bottom: 12px;
   text-align: left;
   line-height: 1;
@@ -286,6 +285,18 @@ PROJECTS
 
 .project__descr {
   margin-top: 10px;
+}
+
+/* 
+
+CONTACT
+
+*/
+
+.contact {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 /* 
