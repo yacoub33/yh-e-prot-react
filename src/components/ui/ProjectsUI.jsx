@@ -7,14 +7,12 @@ function ProjectsUI({ title, languages, description, github, live }) {
       <div className="project">
         <div className="project__wrapper">
           <div className="links">
-            <a href="/" className="project__icon">
+            <a href={github} className="project__icon">
               <FontAwesomeIcon icon="fa-solid fa-file" />
-              {github}
             </a>
             <div className="right">
-              <a href="/" className="project__icon">
+              <a href={live} className="project__icon">
                 <FontAwesomeIcon icon="fa-solid fa-link" />
-                {live}
               </a>
             </div>
           </div>
