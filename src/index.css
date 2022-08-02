@@ -305,8 +305,14 @@ footer {
   padding: 20px;
 }
 
+.footer__links--container {
+  margin-top: 10px;
+}
+
 .footer__links {
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .foo__link {
