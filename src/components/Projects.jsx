@@ -33,6 +33,9 @@ function Projects({ title, languages, description }) {
           />
         </div>
       </div>
+      <button id="btn" class="form__submit">
+        View more
+      </button>
     </section>
   );
 }

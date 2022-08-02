@@ -341,8 +341,9 @@ form {
 }
 
 .form__submit:active {
-  border-color: #496af0;
-  color: #496af0;
+  border-color: rgb(145, 251, 219);
+  color: rgb(13, 25, 45);
+  background-color: rgb(145, 251, 219);
 }
 
 .form__item--label {
