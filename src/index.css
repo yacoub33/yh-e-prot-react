@@ -293,12 +293,69 @@ CONTACT
 
 */
 
-.contact {
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
+form {
+  padding: 20px;
 }
 
+.contact {
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.form__item {
+  margin-bottom: 20px;
+}
+
+.form__submit {
+  background-color: rgb(13, 25, 45);
+  border: 1px solid rgb(145, 251, 220);
+  color: white;
+  font-weight: 700;
+  width: 100%;
+  max-width: 240px;
+  padding: 12px 24px;
+  font-size: 20px;
+  transition: all 300ms ease;
+}
+
+.form__submit:hover {
+  background-color: rgba(21, 34, 62, 0.815);
+  border-color: white;
+}
+
+.form__submit:active {
+  border-color: #496af0;
+  color: #496af0;
+}
+
+.form__item--label {
+  font-size: 16px;
+}
+
+input,
+textarea {
+  width: 100%;
+  background-color: rgb(13, 25, 45);
+  color: white;
+  outline: none;
+  border: 1px solid rgba(21, 34, 62, 0.815);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 40px;
+  transition: all 300ms ease;
+}
+
+input:hover,
+textarea:hover {
+  border-color: #dcdfe6;
+}
+
+input:focus,
+textarea:focus {
+  border-color: rgb(145, 251, 220);
+}
 /* 
 
 FOOTER
