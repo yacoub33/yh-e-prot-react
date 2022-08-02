@@ -439,6 +439,36 @@ footer {
   opacity: 0.5;
 }
 
+.modal__overlay {
+  position: relative;
+  background-color: rgb(21, 34, 62);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  display: none;
+}
+
+.modal__overlay--success {
+  background-color: rgb(21, 34, 62);
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding: 28px;
+}
+
+.modal__overlay--visible {
+  z-index: 1;
+  display: flex;
+}
+
+/* 
+
+MEDIA
+
+*/
+
 @media (max-width: 768px) {
   .title {
     font-size: 50px;

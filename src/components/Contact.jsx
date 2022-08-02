@@ -17,11 +17,17 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          success.classList += " modal__overlay--visible";
         },
         (error) => {
           console.log(error.text);
+          alert(
+            "The email service is temporarily unavailable. Please contact me another way."
+          );
         }
       );
+
+    const success = document.querySelector(".modal__overlay--success");
   };
   return (
     <div className="contact">
@@ -50,6 +56,9 @@ function Contact() {
           Send it my way
         </button>
       </form>
+      <div class="modal__overlay modal__overlay--success">
+        Thanks for the message! Looking forward to speaking to you soon.
+      </div>
     </div>
   );
 }
