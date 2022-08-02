@@ -11,9 +11,9 @@ function App() {
       <Nav />
       <Landing />
       <FeaturedProject
-        title="Spotify"
-        languages="html css js react"
-        description="this is a text"
+        title="E-Commerce React Web App"
+        languages="HTML CSS JavaScript React"
+        description="An e-commerce website for books using a test book API where each book is mapped using reusable HTML elements."
       />
       <Projects />
       <Contact />

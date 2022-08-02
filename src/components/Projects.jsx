@@ -14,7 +14,11 @@ function Projects({ title, languages, description }) {
             languages="Java"
             description="A simple text-based Java Banking Management System. Includes multiple customers, branches, and banks."
           />
-          <ProjectsUI title="hello 2" languages="java" description="daddy" />
+          <ProjectsUI
+            title="Hand Gesture Recognition"
+            languages="Python"
+            description="A Hand Gesture Recognition system made in Python using external libraries such as OpenCV, Numpy and a lot more"
+          />
           <ProjectsUI
             title="Protfolio Template"
             languages="HTML CSS JavaScript"
@@ -33,9 +37,11 @@ function Projects({ title, languages, description }) {
           />
         </div>
       </div>
-      <button id="btn" class="form__submit">
-        View more
-      </button>
+      <a href="https://github.com/yacoub33?tab=repositories">
+        <button id="btn" class="form__submit">
+          View more
+        </button>
+      </a>
     </section>
   );
 }

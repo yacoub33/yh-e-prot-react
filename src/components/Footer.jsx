@@ -17,7 +17,10 @@ function Footer() {
               </a>
             </li>
             <li className="footer__link">
-              <a href="/" className="foo__link">
+              <a
+                href="https://github.com/yacoub33?tab=repositories"
+                className="foo__link"
+              >
                 GitHub
               </a>
             </li>
