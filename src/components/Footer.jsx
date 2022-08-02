@@ -13,7 +13,17 @@ function Footer() {
           <ul className="footer__links">
             <li className="footer__link">
               <a href="/" className="foo__link">
-                Home
+                LinkedIn
+              </a>
+            </li>
+            <li className="footer__link">
+              <a href="/" className="foo__link">
+                GitHub
+              </a>
+            </li>
+            <li className="footer__link">
+              <a href="/" className="foo__link">
+                Resume
               </a>
             </li>
             <li className="footer__link">
@@ -24,8 +34,8 @@ function Footer() {
           </ul>
         </div>
         <div className="copyright">
-          <p>Made and Designed by Yacoub Haddad</p>
-          <p>Copyright &copy; 2022</p>
+          <p>Built and Designed by Yacoub Haddad</p>
+          <p>All rights reserved. &copy; 2022</p>
         </div>
       </div>
     </footer>

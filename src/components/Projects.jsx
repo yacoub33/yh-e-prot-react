@@ -16,7 +16,7 @@ function Projects({ title, languages, description }) {
           />
           <ProjectsUI title="hello 2" languages="java" description="daddy" />
           <ProjectsUI
-            title="Protfolio"
+            title="Protfolio Template"
             languages="HTML CSS JavaScript"
             description="An interactive protfolio website with JavaScript"
           />
@@ -29,7 +29,7 @@ function Projects({ title, languages, description }) {
           <ProjectsUI
             title="Google"
             languages="html css js"
-            description="The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need"
+            description="The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href"
           />
         </div>
       </div>
