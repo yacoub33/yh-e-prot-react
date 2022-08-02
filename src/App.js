@@ -9,11 +9,11 @@ function App() {
     <div className="App">
       {/* <Nav />
       <Landing /> */}
-      {/* <FeaturedProject
+      <FeaturedProject
         title="Spotify"
         languages="html css js react"
         description="this is a text"
-      /> */}
+      />
       <Projects />
       <Footer />
     </div>
