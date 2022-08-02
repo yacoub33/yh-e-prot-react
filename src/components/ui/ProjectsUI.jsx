@@ -18,7 +18,7 @@ function ProjectsUI({ title, languages, description }) {
           </div>
           <h3 className="project__title">{title}</h3>
           <p className="project__descr">{description}</p>
-          <h4 className="project__sub-title">{languages}</h4>
+          <h4 className="project__sub-title tech__font">{languages}</h4>
         </div>
       </div>
     </div>

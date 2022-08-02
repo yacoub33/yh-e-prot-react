@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+.tech__font {
+  font-family: "Share Tech Mono", monospace;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -14,6 +20,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+button {
+  cursor: pointer;
 }
 
 * {
@@ -245,6 +255,7 @@ PROJECTS
   height: 300px;
   background-color: rgba(21, 34, 62, 0.815);
   border-radius: 5px;
+  box-shadow: 2px 2px rgba(145, 251, 219, 0.222);
   border: 1px solid rgba(206, 214, 243, 0.151);
   transition: all 800ms ease;
   word-wrap: break-word;
@@ -265,7 +276,7 @@ PROJECTS
 }
 
 .project__hover:hover .project {
-  border: 1px solid rgb(145, 251, 220);
+  box-shadow: 3px 3px rgb(145, 251, 219);
 }
 
 .links {

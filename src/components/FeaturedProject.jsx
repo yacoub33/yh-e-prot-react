@@ -17,8 +17,10 @@ function FeaturedProject({ title, languages, description }) {
           <div class="project__wrapper--bg"></div>
           <div class="project__description">
             <h3 class="project__description--title">{title}</h3>
-            <h4 class="project__description--sub-title">{languages}</h4>
             <p class="project__description--para">{description}</p>
+            <h4 class="project__description--sub-title tech__font">
+              {languages}
+            </h4>
             <div class="project__description--links">
               <a href="#" class="project__description--link">
                 <i class="fab fa-github"></i>

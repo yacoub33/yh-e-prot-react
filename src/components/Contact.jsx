@@ -24,7 +24,7 @@ function Contact() {
             required
           ></textarea>
         </div>
-        <button id="ceontact__submit" class="form__submit">
+        <button id="btn" class="form__submit">
           Send it my way
         </button>
       </form>
