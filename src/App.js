@@ -7,8 +7,8 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <div className="App">
-      {/* <Nav />
-      <Landing /> */}
+      <Nav />
+      {/* <Landing /> */}
       <FeaturedProject
         title="Spotify"
         languages="html css js react"

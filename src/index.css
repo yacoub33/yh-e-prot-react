@@ -51,13 +51,18 @@ NAV
 */
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   height: 80px;
+}
+
+.nav__wrapper {
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 auto;
 }
 
 li {

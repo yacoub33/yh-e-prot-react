@@ -32,7 +32,6 @@ function Projects({ title, languages, description }) {
             description="The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need"
           />
         </div>
-        <button className="btn">Show more</button>
       </div>
     </section>
   );
