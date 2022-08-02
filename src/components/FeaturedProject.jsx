@@ -1,5 +1,6 @@
 import React from "react";
 import featuredImg from "../assets/blinker mockup.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function FeaturedProject({ title, languages, description }) {
   return (
@@ -23,11 +24,11 @@ function FeaturedProject({ title, languages, description }) {
                 {languages}
               </h4>
               <div class="project__description--links">
-                <a href="#" class="project__description--link">
-                  <i class="fab fa-github"></i>
+                <a href="/" class="project__description--link">
+                  <FontAwesomeIcon icon="fa-solid fa-file" />
                 </a>
-                <a href="#" class="project__description--link">
-                  <i class="fas fa-link"></i>
+                <a href="/" class="project__description--link">
+                  <FontAwesomeIcon icon="fa-solid fa-link" />
                 </a>
               </div>
             </div>
