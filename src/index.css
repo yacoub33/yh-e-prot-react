@@ -257,7 +257,7 @@ PROJECTS
 }
 
 .project__hover:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
 }
 
 .project__hover:hover .project {
