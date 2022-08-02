@@ -175,6 +175,10 @@ FEATURED PROJ
   overflow: hidden;
 }
 
+.featured__container {
+  padding: 20px;
+}
+
 .project__description {
   position: absolute;
   top: 50%;
@@ -263,7 +267,6 @@ PROJECTS
   box-shadow: 2px 2px rgba(145, 251, 219, 0.222);
   border: 1px solid rgba(206, 214, 243, 0.151);
   transition: all 800ms ease;
-  word-wrap: break-word;
 }
 
 .project__wrapper {
@@ -274,6 +277,10 @@ PROJECTS
 .project__hover:hover .project__title {
   color: rgb(145, 251, 220);
   transition: all 800ms ease;
+}
+
+.project__hover:hover .project__icon {
+  color: rgb(145, 251, 219);
 }
 
 .project__hover:hover {
@@ -295,8 +302,12 @@ PROJECTS
   color: rgb(206, 214, 243);
 }
 
+.project__title {
+  min-height: 40px;
+}
+
 .project__descr {
-  height: 150px;
+  min-height: 120px;
 }
 
 .project__descr {

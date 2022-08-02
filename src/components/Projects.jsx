@@ -10,15 +10,15 @@ function Projects({ title, languages, description }) {
         </div>
         <div className="project__list">
           <ProjectsUI
-            title="Google"
-            languages="html css js"
-            description="eyo"
+            title="Banking Management System"
+            languages="Java"
+            description="A simple text-based Java Banking Management System. Includes multiple customers, branches, and banks."
           />
           <ProjectsUI title="hello 2" languages="java" description="daddy" />
           <ProjectsUI
-            title="Google"
-            languages="html css js"
-            description="eyo"
+            title="Protfolio"
+            languages="HTML CSS JavaScript"
+            description="An interactive protfolio website with JavaScript"
           />
           <ProjectsUI
             title="Google"
