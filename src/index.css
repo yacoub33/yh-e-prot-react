@@ -296,6 +296,10 @@ footer {
   margin: 0 auto;
 }
 
+.footer__container {
+  padding: 20px;
+}
+
 .footer__links {
   display: flex;
 }

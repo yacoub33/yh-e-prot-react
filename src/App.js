@@ -15,7 +15,7 @@ function App() {
         description="this is a text"
       /> */}
       <Projects />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
