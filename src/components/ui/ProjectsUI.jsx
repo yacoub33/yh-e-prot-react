@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function ProjectsUI({ title, languages, description }) {
+function ProjectsUI({ title, languages, description, github, live }) {
   return (
     <div className="project__hover">
       <div className="project">
@@ -9,10 +9,12 @@ function ProjectsUI({ title, languages, description }) {
           <div className="links">
             <a href="/" className="project__icon">
               <FontAwesomeIcon icon="fa-solid fa-file" />
+              {github}
             </a>
             <div className="right">
               <a href="/" className="project__icon">
                 <FontAwesomeIcon icon="fa-solid fa-link" />
+                {live}
               </a>
             </div>
           </div>

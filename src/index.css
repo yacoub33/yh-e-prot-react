@@ -276,15 +276,15 @@ PROJECTS
 }
 
 .featured__project {
-  box-shadow: 8px 8px rgba(145, 251, 219, 0.222);
+  box-shadow: 3px 3px rgba(145, 251, 219, 0.222);
   border-radius: 5px;
 }
 
 .featured__project:hover {
-  box-shadow: 8px 8px rgb(145, 251, 219);
+  box-shadow: 3px 3px rgb(145, 251, 219);
 }
 
-.featured__container:hover .project__description--title {
+.featured__project:hover .project__description--title {
   color: rgb(145, 251, 219);
 }
 
@@ -447,12 +447,8 @@ footer {
     font-size: 20px;
   }
 
-  .project__img {
-    filter: blur(2px);
-  }
-
   .project__wrapper--bg {
-    opacity: 0.7;
+    opacity: 0.9;
   }
 
   .project__description {

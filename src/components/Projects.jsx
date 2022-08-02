@@ -23,6 +23,8 @@ function Projects({ title, languages, description }) {
             title="Protfolio Template"
             languages="HTML CSS JavaScript"
             description="An interactive protfolio website with JavaScript"
+            github="https://github.com/yacoub33/yh-e-protfolio"
+            live="https://brilliant-cactus-eab310.netlify.app"
           />
           <ProjectsUI
             title="Google"
