@@ -57,7 +57,6 @@ nav {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
   height: 80px;
 }
 
@@ -99,7 +98,6 @@ LANDING
   max-width: 1200px;
   margin: 0 auto;
   min-height: calc(100vh - 80px);
-  padding: 20px;
 }
 
 .header {
@@ -141,7 +139,6 @@ FEATURED PROJ
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 20px;
 }
 
 .project__img {
@@ -220,10 +217,9 @@ PROJECTS
 */
 
 #projects {
-  max-width: 1000px;
   width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 20px;
 }
 
 .project__list {
@@ -294,7 +290,6 @@ FOOTER
 */
 
 footer {
-  padding: 20px;
   text-align: center;
   width: 100%;
   max-width: 1000px;
