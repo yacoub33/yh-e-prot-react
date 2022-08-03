@@ -24,10 +24,10 @@ function FeaturedProject({ title, languages, description }) {
                 {languages}
               </h4>
               <div class="project__description--links">
-                <a href="/" class="project__description--link">
+                <a href="/" class="project__description--link" target="_blank">
                   <FontAwesomeIcon icon="fa-solid fa-file" />
                 </a>
-                <a href="/" class="project__description--link">
+                <a href="/" class="project__description--link" target="_blank">
                   <FontAwesomeIcon icon="fa-solid fa-link" />
                 </a>
               </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectsUI from "./ui/ProjectsUI";
 
-function Projects({ title, languages, description }) {
+function Projects({ title, languages, description, liveNA }) {
   return (
     <section id="projects">
       <div className="container">
@@ -13,17 +13,20 @@ function Projects({ title, languages, description }) {
             title="Personal Protfolio"
             languages="HTML CSS JavaScript React"
             description="This website."
+            github="https://github.com/yacoub33/yh-e-prot-react"
           />
           <ProjectsUI
             title="Hand Gesture Recognition"
             languages="Python"
             description="A Hand Gesture Recognition system made in Python using external libraries such as OpenCV, Numpy and a lot more"
+            github="/"
           />
 
           <ProjectsUI
             title="Banking Management System"
             languages="Java"
             description="A simple text-based Java Banking Management System. Includes multiple customers, branches, and banks."
+            github="https://github.com/yacoub33/Banking"
           />
 
           <ProjectsUI
@@ -38,15 +41,23 @@ function Projects({ title, languages, description }) {
             title="Roll the Dice"
             languages="HTML CSS JavaScript"
             description="A simple web 2-player game. If you roll the dice and get one you lose all your points unless you save them. First player to reach 21 points wins."
+            github="https://github.com/yacoub33/Pig-game"
+            live="/"
           />
           <ProjectsUI
             title="Guess The Number"
             languages="HTML CSS JavaScript"
             description="Guess a number between 1-20 if its low you'll recieve Too Low guess Higher or Too High guess Lower. Try to break your record."
+            github="https://github.com/yacoub33/Guess-the-number-game"
+            live="/"
           />
         </div>
       </div>
-      <a href="https://github.com/yacoub33?tab=repositories">
+      <a
+        href="https://github.com/yacoub33?tab=repositories"
+        target="_blank"
+        rel="noreferrer"
+      >
         <button id="btn" class="form__submit">
           View more
         </button>

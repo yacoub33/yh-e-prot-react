@@ -29,11 +29,6 @@ function Footer() {
                 Resume
               </a>
             </li>
-            <li className="footer__link">
-              <a href="/" className="foo__link">
-                Contact
-              </a>
-            </li>
           </ul>
         </div>
         <div className="copyright">

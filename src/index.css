@@ -102,6 +102,10 @@ a {
   color: rgb(145, 251, 220);
 }
 
+.foo__link:hover {
+  color: rgb(145, 251, 220);
+}
+
 .container {
   max-width: 1000px;
   width: 100%;
@@ -326,9 +330,6 @@ PROJECTS
 
 .project__descr {
   min-height: 120px;
-}
-
-.project__descr {
   margin-top: 10px;
 }
 
@@ -402,6 +403,26 @@ input:focus,
 textarea:focus {
   border-color: rgb(145, 251, 220);
 }
+
+.modal__overlay {
+  position: relative;
+  background-color: rgb(21, 34, 62);
+  z-index: -1;
+}
+
+.modal__overlay--success {
+  background-color: rgb(21, 34, 62);
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  padding: 28px;
+  display: none;
+}
+
+.modal__overlay--visible {
+  z-index: 1;
+  display: flex;
+}
 /* 
 
 FOOTER
@@ -437,30 +458,6 @@ footer {
 .copyright {
   margin-top: 32px;
   opacity: 0.5;
-}
-
-.modal__overlay {
-  position: relative;
-  background-color: rgb(21, 34, 62);
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  z-index: -1;
-  display: none;
-}
-
-.modal__overlay--success {
-  background-color: rgb(21, 34, 62);
-  font-size: 40px;
-  font-weight: 700;
-  text-align: center;
-  padding: 28px;
-}
-
-.modal__overlay--visible {
-  z-index: 1;
-  display: flex;
 }
 
 /* 

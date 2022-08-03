@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 
 function Nav() {
   return (
@@ -9,11 +10,6 @@ function Nav() {
         </figure>
 
         <ul className="nav__links">
-          <li className="nav__list">
-            <a href="/" className="nav__link">
-              Projects
-            </a>
-          </li>
           <li className="nav__list">
             <a href="/" className="nav__link">
               Contact
