@@ -36,6 +36,10 @@ button {
   margin: 0;
 }
 
+p {
+  line-height: 1.25;
+}
+
 .section__title {
   margin-bottom: 32px;
   font-size: 32px;
@@ -154,6 +158,71 @@ LANDING
 
 /* 
 
+ABOUT
+
+*/
+
+.about__container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about__description {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.about__wrapper {
+  padding: 20px;
+  margin: 0 auto;
+  column-count: 2;
+  width: 100%;
+  max-width: 920px;
+  /* background-color: rgb(21, 34, 62); */
+  border-radius: 5px;
+  /* border: 1px solid rgba(206, 214, 243, 0.151); */
+}
+
+.img {
+  width: 100%;
+  max-width: 800;
+  border-radius: 5px;
+  filter: grayscale(1);
+  transition: all 300ms ease;
+  box-shadow: 3px 3px rgba(145, 251, 219, 0.222);
+  transform: scale(0.99);
+}
+
+.img:hover {
+  filter: grayscale(0);
+  transform: scale(1);
+  box-shadow: 3px 3px rgb(145, 251, 219);
+}
+
+.tech__list {
+  display: flex;
+}
+
+.tech__left {
+  margin-right: 40px;
+}
+
+.fa-angle-right {
+  margin-right: 10px;
+  color: rgb(145, 251, 219);
+}
+
+.tech__name {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New";
+  font-size: medium;
+}
+
+/* 
+
 FEATURED PROJ
 
 */
@@ -162,6 +231,7 @@ FEATURED PROJ
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
+  margin-top: 50px;
 }
 
 .project__img {
@@ -489,6 +559,25 @@ MEDIA
 
   .project__description--sub-title {
     font-size: 16px;
+  }
+
+  .about__description {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .about__wrapper {
+    margin: 0 auto;
+    column-count: 1;
+    width: 80%;
+    max-width: 920px;
+    /* background-color: rgb(21, 34, 62); */
+    border-radius: 5px;
+    /* border: 1px solid rgba(206, 214, 243, 0.151); */
+  }
+
+  .tech__name {
+    font-size: small;
   }
 }
 

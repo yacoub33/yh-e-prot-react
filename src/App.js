@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Contact from "./components/Contact";
 import FeaturedProject from "./components/FeaturedProject";
 import Footer from "./components/Footer";
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Nav />
       <Landing />
+      <About />
       <FeaturedProject
         title="E-Commerce React Web App"
         languages="HTML CSS JavaScript React"
