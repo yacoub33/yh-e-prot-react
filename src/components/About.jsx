@@ -20,7 +20,7 @@ function About() {
               <p>
                 I have experience from the tech industry working with JavaScript
                 and have demonstrated my ability to work independently and
-                produce projects in a team. My studies provided me with a good
+                produce projects in a team. My studies provided me with good
                 knowledge of Data Structures and Algorithms and helped me think
                 and solve problems like a programmer.
               </p>
