@@ -9,13 +9,13 @@ function Nav() {
           <h1>YH</h1>
         </figure>
 
-        <ul className="nav__links">
+        {/* <ul className="nav__links">
           <li className="nav__list">
             <a href="/" className="nav__link">
               Contact
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </nav>
   );

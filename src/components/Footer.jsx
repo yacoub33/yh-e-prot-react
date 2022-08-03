@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "../assets/YH.pdf";
 
 function Footer() {
   return (
@@ -12,7 +13,12 @@ function Footer() {
         <div className="footer__links--container">
           <ul className="footer__links">
             <li className="footer__link">
-              <a href="/" className="foo__link">
+              <a
+                href="https://www.linkedin.com/in/yacoubhaddad/"
+                className="foo__link"
+                target="_blank"
+                rel="noreferrer"
+              >
                 LinkedIn
               </a>
             </li>
@@ -20,12 +26,20 @@ function Footer() {
               <a
                 href="https://github.com/yacoub33?tab=repositories"
                 className="foo__link"
+                target="_blank"
+                rel="noreferrer"
               >
                 GitHub
               </a>
             </li>
             <li className="footer__link">
-              <a href="/" className="foo__link">
+              <a
+                href={Resume}
+                className="foo__link"
+                target="_blank"
+                download
+                rel="noreferrer"
+              >
                 Resume
               </a>
             </li>
