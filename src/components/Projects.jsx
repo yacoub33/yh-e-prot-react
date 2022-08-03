@@ -40,14 +40,14 @@ function Projects({ title, languages, description, liveNA }) {
           <ProjectsUI
             title="Roll the Dice"
             languages="HTML CSS JavaScript"
-            description="A simple web 2-player game. If you roll the dice and get one you lose all your points unless you save them. First player to reach 21 points wins."
+            description="A simple web 2-player game. If you roll the dice and get one you lose all your points unless you save them. First player to reach 21 points wins. (Large Screens Only)"
             github="https://github.com/yacoub33/Pig-game"
             live="https://enchanting-bombolone-54d90b.netlify.app"
           />
           <ProjectsUI
             title="Guess The Number"
             languages="HTML CSS JavaScript"
-            description="Guess a number between 1-20 if its low you'll recieve Too Low guess Higher or Too High guess Lower. Try to break your record."
+            description="Guess a number between 1-20 if its low you'll recieve Too Low guess Higher or Too High guess Lower. Try to break your record. (Large Screens Only)"
             github="https://github.com/yacoub33/Guess-the-number-game"
             live="https://zippy-kringle-f691ba.netlify.app"
           />

@@ -24,10 +24,15 @@ function FeaturedProject({ title, languages, description }) {
                 {languages}
               </h4>
               <div class="project__description--links">
-                <a href="/" class="project__description--link" target="_blank">
+                <a href="/" class="project__description--link" rel="noreferrer">
                   <FontAwesomeIcon icon="fa-solid fa-file" />
                 </a>
-                <a href="/" class="project__description--link" target="_blank">
+                <a
+                  href="https://github.com/yacoub33/e-com-react"
+                  class="project__description--link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FontAwesomeIcon icon="fa-solid fa-link" />
                 </a>
               </div>
