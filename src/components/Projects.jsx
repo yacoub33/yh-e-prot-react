@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectsUI from "./ui/ProjectsUI";
 
-function Projects({ title, languages, description, liveNA }) {
+function Projects({ title, languages, description, iconLink }) {
   return (
     <section id="projects">
       <div className="container">
@@ -35,6 +35,7 @@ function Projects({ title, languages, description, liveNA }) {
             description="An interactive protfolio website with JavaScript"
             github="https://github.com/yacoub33/yh-e-protfolio"
             live="https://brilliant-cactus-eab310.netlify.app"
+            iconLink="fa-solid fa-link"
           />
 
           <ProjectsUI
@@ -43,6 +44,7 @@ function Projects({ title, languages, description, liveNA }) {
             description="A simple web 2-player game. If you roll the dice and get one you lose all your points unless you save them. First player to reach 21 points wins. (Large Screens Only)"
             github="https://github.com/yacoub33/Pig-game"
             live="https://enchanting-bombolone-54d90b.netlify.app"
+            iconLink="fa-solid fa-link"
           />
           <ProjectsUI
             title="Guess The Number"
@@ -50,6 +52,7 @@ function Projects({ title, languages, description, liveNA }) {
             description="Guess a number between 1-20 if its low you'll recieve Too Low guess Higher or Too High guess Lower. Try to break your record. (Large Screens Only)"
             github="https://github.com/yacoub33/Guess-the-number-game"
             live="https://zippy-kringle-f691ba.netlify.app"
+            iconLink="fa-solid fa-link"
           />
         </div>
       </div>
