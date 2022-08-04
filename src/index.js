@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { fab, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { fab, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 // import { faGithub } from "@fortawesome/free-solid-svg-icons";
 
@@ -15,7 +15,7 @@ import {
   faAngleRight,
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faBars, faFile, faLink, faAngleRight, fab, faGithub);
+library.add(faBars, faFile, faLink, faAngleRight, fab, faGithub, faLinkedin);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

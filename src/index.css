@@ -156,6 +156,22 @@ LANDING
   max-width: 650px;
 }
 
+.socials {
+  display: flex;
+}
+
+.socials_link {
+  color: white;
+  font-size: 32px;
+  margin-right: 16px;
+  transition: all 300ms ease;
+}
+
+.socials_link:hover {
+  transform: scale(1.2);
+  color: rgb(145, 251, 219);
+}
+
 /* 
 
 ABOUT
