@@ -13,7 +13,7 @@ function ProjectsUI({ title, languages, description, github, live, liveNA }) {
               target="_blank"
               rel="noreferrer"
             >
-              <FontAwesomeIcon icon="fa-solid fa-file" />
+              <FontAwesomeIcon icon="fa-brands fa-github" />
             </a>
             <div className="right">
               <a
