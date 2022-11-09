@@ -14,15 +14,16 @@ function About() {
             <div className="about__description">
               <p>
                 Hello My name is Yacoub and I enjoy creating things that live on
-                the internet. I am currently a MSc Computer Science student at
-                the University of East London.
+                the internet. I am a MSc Computer Science student at the
+                University of East London currently on placement.
               </p>
               <p>
-                I have experience from the tech industry working with JavaScript
-                and have demonstrated my ability to work independently and
-                produce projects in a team. My studies provided me with good
-                knowledge of Data Structures and Algorithms and helped me think
-                and solve problems like a programmer.
+                An experienced and highly motivated software developer with a
+                strong passion for learning new technologies and building
+                applications that provide a great user experience. Experienced
+                from the tech industry using Java, JavaScript, React.js, HTML,
+                and CSS and have demonstrated the ability to work independently
+                and produce projects in a team.
               </p>
               <p>
                 Some of the technologies I have been working with:
