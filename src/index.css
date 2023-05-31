@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .tech__font {
   font-family: "Share Tech Mono", monospace;
@@ -8,11 +9,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(13, 25, 45);
+  background-color: rgb(5, 8, 21);
   color: rgb(206, 214, 243);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -29,6 +28,13 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 32px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
 }
 
 * {
@@ -479,6 +485,9 @@ textarea {
   border-right: none;
   height: 40px;
   transition: all 300ms ease;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-left: 10px;
 }
 
 input:hover,

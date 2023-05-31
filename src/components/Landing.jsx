@@ -7,8 +7,8 @@ function Landing() {
       <header className="header">
         <div className="header__container">
           <div className="header__title">
-            <p className="small__intro text-color">Hello, my name is</p>
-            <h1 className="title main__title">Yacoub Haddad</h1>
+            <p className="small__intro text-color">Hello! I'm</p>
+            <h1 className="title main__title">Yacoub</h1>
             <p className="header__para">
               I am a <b className="text-color">Software Engineer </b>
               with a strong passion for developing web applications with great
