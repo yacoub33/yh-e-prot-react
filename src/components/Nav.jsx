@@ -6,7 +6,7 @@ function Nav() {
     <nav className="nav__container">
       <div className="nav__wrapper">
         <figure>
-          <h1>YH</h1>
+          <h1 className="text-xl">YH</h1>
         </figure>
 
         {/* <ul className="nav__links">
